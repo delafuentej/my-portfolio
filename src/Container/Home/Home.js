@@ -1,11 +1,11 @@
-import React, { useEffect} from "react";
+import React/*  { useEffect} */ from "react";
 import Typical from "react-typical";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
 
 const Home = () => {
 
-  useEffect(()=>{
+  /* useEffect(()=>{
     fetch("https://api.github.com/users/delafuentej/events/public")
     .then(res => res.json())
     .then(res =>{
@@ -13,7 +13,7 @@ const Home = () => {
       console.log(res);
       console.log('====================================');
     })
-  },[])
+  },[]) */
 
   return (
 
