@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useEffect} from "react";
 import Typical from "react-typical";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
