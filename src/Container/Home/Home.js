@@ -1,11 +1,19 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Typical from "react-typical";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
 
 const Home = () => {
 
-
+  useEffect(()=>{
+    fetch("https://api.github.com/users/delafuentej/events/public")
+    .then(res => res.json())
+    .then(res =>{
+      console.log('====================================');
+      console.log(res);
+      console.log('====================================');
+    })
+  },[])
 
   return (
 
@@ -19,7 +27,7 @@ const Home = () => {
         Hi, I am 
         <span className="name-text">
         {" "}
-            Jesus
+            Jesús
         </span>
       </span>
       <div className="profile-details-role">
@@ -44,16 +52,25 @@ const Home = () => {
 
         <div className="profile-options">
           <Button 
-            variant="primary"
+            variant="dark"
             size="lg"
+            style={{
+              margin:"20px auto"
+            }}
           /* className="btn btn-seeProjects" */>
-            {""}
-            See my projects{" "}
+            
+            My projects{" "}
           </Button>
 
-          <Button /* className="btn btn-contactMe" */>
-            {""}
-            Contact Me{" "}
+          <Button
+          variant="dark"
+          size="lg"
+          style={{
+            marginLeft:"30px"
+          }}
+           /* className="btn btn-contactMe" */>
+            
+            Contact Me
           </Button>
         </div>
       </div>

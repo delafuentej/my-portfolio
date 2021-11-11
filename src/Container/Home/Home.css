@@ -31,8 +31,8 @@
     border-radius: 50%;
     background-image: url("../../assets/pictures/bild_lebenslauf.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    margin:0 auto;
 }
 .profile-picture-bg:hover{
     transform:scale(1.07);
@@ -42,6 +42,7 @@
 .greeting-text{
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
+    margin:0 auto;
 
 }
 .name-text{
@@ -53,5 +54,8 @@
 .profile-details-role h1{
     font-size: 40px;
     font-family: 'Special Elite', cursive;
+}
+.profile-options{
+    margin:0 auto;
 }
 
