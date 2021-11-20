@@ -9,10 +9,12 @@
     text-align:center;
     height:10%;
     min-height: fit-content;
-    background-color:aliceblue;
     padding: 50px;
     
 
+}
+.home-title{
+    margin-bottom: 1em;
 }
 .profile-picture{
     display:flex;
@@ -47,7 +49,7 @@
 }
 .name-text{
     font-size:35px;
-    color:red;
+    color:turquoise;
     
 }
 
@@ -59,4 +61,29 @@
 .profile-options{
     margin:0 auto;
 }
+.home-icons{
+    margin:0 auto;
+    display:inline-flex;
+}
+.home-icons:nth-child(2){
+    color:black;
+
+}
+
+.home-icons .linkedinIcon,.home-icons .githubIcon, .home-icons .xingIcon{
+    margin:30px;
+    size: 2em;
+    color:turquoise;
+    font-size: 3.5em;
+}
+.home-icons .linkedinIcon:hover,.home-icons .githubIcon:hover, .home-icons .xingIcon:hover{
+    margin:30px;
+    size: 2em;
+    color:turquoise;
+    font-size: 3.5em;
+    transform:scale(1.07);
+    transition:1s ease-out;
+}
+
+
 
