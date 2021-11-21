@@ -38,7 +38,7 @@
     margin:0 auto;
 }
 .profile-picture-bg:hover{
-    transform:scale(1.05);
+    transform:scale(1.06);
     transition:1s ease-out;
 }
 
@@ -55,7 +55,7 @@
 }
 
 
-.profile-details-role h1{
+.profile-details-role h2{
     font-size: 40px;
     font-family: 'Special Elite', cursive;
 }
