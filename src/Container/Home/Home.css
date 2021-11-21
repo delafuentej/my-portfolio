@@ -16,6 +16,7 @@
 .home-title{
     margin-bottom: 1em;
 }
+
 .profile-picture{
     display:flex;
     align-items: center;
@@ -37,7 +38,7 @@
     margin:0 auto;
 }
 .profile-picture-bg:hover{
-    transform:scale(1.07);
+    transform:scale(1.05);
     transition:1s ease-out;
 }
 
@@ -58,31 +59,34 @@
     font-size: 40px;
     font-family: 'Special Elite', cursive;
 }
-.profile-options{
+.profile-options,.visit-title{
     margin:0 auto;
 }
 .home-icons{
     margin:0 auto;
     display:inline-flex;
+    list-style: none;
 }
-.home-icons:nth-child(2){
-    color:black;
 
+.visit-title{
+    margin:0 auto;
 }
 
 .home-icons .linkedinIcon,.home-icons .githubIcon, .home-icons .xingIcon{
-    margin:30px;
-    size: 2em;
+    margin-right: 1.4rem;
+    size: 3em;
     color:turquoise;
     font-size: 3.5em;
+
 }
 .home-icons .linkedinIcon:hover,.home-icons .githubIcon:hover, .home-icons .xingIcon:hover{
-    margin:30px;
+    
     size: 2em;
     color:turquoise;
     font-size: 3.5em;
-    transform:scale(1.07);
+    transform:scale(1.05);
     transition:1s ease-out;
+    
 }
 
 
