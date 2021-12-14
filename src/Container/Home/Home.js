@@ -17,10 +17,10 @@ const Home = () => {
   return (
     <div className="home-container">
       <h1 className="home-title">
-        Portfolio under construction{" "}
-        <span style={{ color: "turquoise", fontSize: "2em" }}>
+       {/*  Portfolio under construction{" "} */}
+       {/*  <span style={{ color: "turquoise", fontSize: "2em" }}>
           <IoMdConstruct />
-        </span>
+        </span> */}
       </h1>
       <div className="profile-picture">
         <div className="profile-picture-bg"></div>

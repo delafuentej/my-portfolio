@@ -1,0 +1,13 @@
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color:turquoise;
+    padding:2em;
+
+}
+
+.nav-list-item{
+    margin:1rem;
+}
